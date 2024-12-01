@@ -5,7 +5,7 @@ public class Main {
             System.out.println(a);
         }
 
-        for (int b = 10; b >= 1; b = b - 2) {
+        for (int b = 10; b >= 1; b = b - 1) {
             System.out.println(b);
         }
 
@@ -45,10 +45,10 @@ public class Main {
         }
 
         int number = 2;
-        int equals = 0;
+        int result = 0;
         for (int num = 1; num <= 10; num++) {
-            equals = number + equals;
-            System.out.println(+number + "*" + num + "=" + equals);
+            result = number + result;
+            System.out.println(+number + "*" + num + "=" + result);
         }
     }
 }
